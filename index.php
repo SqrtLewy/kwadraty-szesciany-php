@@ -33,9 +33,6 @@ echo '<pre>';
 print_r($tablica);
 echo '</pre>';
 
-/* jezeli masz kilka checkbox to musisz dla kazdego osobnego ifa zrobić i osobno wartość pobierać. 
- * bardzej do czegos takiego jak tu masz nada sie pole select 
- */
 if($_POST["suma"]) {
     echo 'suma liczb: ' . array_sum($tablica);
 }
